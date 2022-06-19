@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "git@github.com:akakou-hobby/mendelay-desktop.git",
   "author": "akakou <akakou571@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^19.0.4"
+  }
 }
