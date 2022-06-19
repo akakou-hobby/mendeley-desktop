@@ -1,5 +1,4 @@
 const { app, BrowserWindow } = require('electron')
-const path = require('path')
 
 function createWindow () {
   const win = new BrowserWindow({
@@ -7,7 +6,7 @@ function createWindow () {
     height: 600,
   })
 
-  win.loadURL('https://www.mendeley.com/search/')
+  win.loadURL('https://www.mendeley.com/reference-manager/library/all-references')
 }
 
 app.whenReady().then(() => {
@@ -25,4 +24,5 @@ app.on('window-all-closed', () => {
     app.quit()
   }
 })
+
 
