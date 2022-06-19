@@ -5,12 +5,9 @@ function createWindow () {
   const win = new BrowserWindow({
     width: 800,
     height: 600,
-    webPreferences: {
-      preload: path.join(__dirname, 'preload.js')
-    }
   })
 
-  win.loadFile('index.html')
+  win.loadURL('https://www.mendeley.com/search/')
 }
 
 app.whenReady().then(() => {
