@@ -1,0 +1,8 @@
+{
+  "name": "mendelay-desktop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:akakou-hobby/mendelay-desktop.git",
+  "author": "akakou <akakou571@gmail.com>",
+  "license": "MIT"
+}
