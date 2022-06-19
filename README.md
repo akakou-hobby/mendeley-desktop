@@ -1,2 +1,2 @@
-# mendelay-desktop
-Unofficial mendelay desktop application.
+# mendeley-desktop
+Unofficial mendeley desktop application.
