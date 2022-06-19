@@ -4,6 +4,7 @@ function createWindow () {
   const win = new BrowserWindow({
     width: 800,
     height: 600,
+    sandbox: true
   })
 
   win.loadURL('https://www.mendeley.com/reference-manager/library/all-references')
